@@ -1,0 +1,37 @@
+body{
+ height:500px;
+ width:350px;
+}
+.mr-15{
+ margin-left:20px;
+}
+.settings{
+ display:flex;
+ flex-direction:column;
+}
+.banner{
+ text-align:center;
+ background-color:purple;
+ color:white;
+ height:300px;
+}
+.btn{
+ padding:10px;
+ background-color:#2910a3;
+ border:none;
+ color:white;
+ border-radius:5px;
+ text-align:center;
+ font-size:20px;
+}
+
+.btn:hover{
+ cursor:pointer;
+ background-color:#d1171a;
+}
+.pass{
+ padding:10px;
+ font-size:25px;
+ background-color:#a2b3a5;
+ color:white;
+}
