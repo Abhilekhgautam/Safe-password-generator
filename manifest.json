@@ -1,0 +1,23 @@
+{
+ "manifest_version": 2,
+  "version":"1.0",
+  "name":"Safe Password",
+  "content_scripts":[
+   {
+    "matches":["<all_urls>"],
+     "js":["main.js"] 
+   }
+  ],
+  "browser_action":{
+   "default_icon":{
+     "19":"media/icon-38.png",
+     "38":"media/icon-38.png"
+   },
+   "default_title":"Pasa genetator",
+    "default_popup":"popup/popup.html",
+    "browser_style":true
+  },
+  "background":{
+    "scripts":["background.js"]
+  }
+}
